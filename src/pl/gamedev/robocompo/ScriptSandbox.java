@@ -10,13 +10,13 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
-import sun.org.mozilla.javascript.internal.BaseFunction;
-import sun.org.mozilla.javascript.internal.Context;
-import sun.org.mozilla.javascript.internal.NativeArray;
-import sun.org.mozilla.javascript.internal.NativeObject;
-import sun.org.mozilla.javascript.internal.Script;
-import sun.org.mozilla.javascript.internal.Scriptable;
-import sun.org.mozilla.javascript.internal.ScriptableObject;
+import org.mozilla.javascript.BaseFunction;
+import org.mozilla.javascript.Context;
+import org.mozilla.javascript.NativeArray;
+import org.mozilla.javascript.NativeObject;
+import org.mozilla.javascript.Script;
+import org.mozilla.javascript.Scriptable;
+import org.mozilla.javascript.ScriptableObject;
 
 class FunctionCall implements Serializable {
 	/**

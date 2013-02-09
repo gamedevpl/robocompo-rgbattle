@@ -23,9 +23,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import sun.org.mozilla.javascript.internal.NativeArray;
-import sun.org.mozilla.javascript.internal.NativeObject;
-import sun.org.mozilla.javascript.internal.ScriptableObject;
+import org.mozilla.javascript.NativeArray;
+import org.mozilla.javascript.NativeObject;
+import org.mozilla.javascript.ScriptableObject;
 
 class RowMap {
 	final Vector<Soldier>[] rows = new Vector[200];
